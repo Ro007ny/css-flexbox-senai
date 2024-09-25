@@ -334,3 +334,32 @@ hr {
     padding: 16px;
     height: 500px;
 }
+
+:where(nav,ul){
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#to-top{
+    position: fixed;
+    bottom: 3em;
+    right: 1em;
+    background-color: darkblue;
+    padding: 1em;
+    font-size: 14pt;
+    border-radius: 1em;
+    color: white;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
